@@ -67,8 +67,3 @@ $ cat ~/.ssh/id_rsa.pub
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCb+3pH0GS9eskv+9A7MAeQjoGHiVAkdOSKOjwy+vEE6Q0qUkiYFi2o4dJUH08xcxR5hPUkz3LRYf+c1zm+YGmFjilkEjyOyZ1EpeK26D5d7GKOj8/hq2QU2fPGX6ZMJ9JlsHp7Thn8bNjTj0HJjtH+W4abuxA7cYN2SizEHFLv3xQjig/B/n2p7EukSsL03ISnJfWVNM7T6oWg6CTenBUo3r/2RLFZF+xaiHZacVZcE1O/dqTXqj3L3+vMCEyHA0ScoIlQ6pYqgzcC5IGHcAbD9K6Dl04nVq/dnnUwKoFY4aUWmsJq7efq245gAuHa02Qycwopdf+dcqhjDly6vQc1 username@MacBook-Pro.local
 ```
 Copy and paste the public key to the server file `~/.ssh/authorized_keys`.
-
-An easy way to copy and paste is to use `ssh-copy-id` on your local computer:
-```
-$ ssh-copy-id username@remote_host
-```
